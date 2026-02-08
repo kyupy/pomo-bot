@@ -1,8 +1,0 @@
-services:
-  bot:
-    build: .
-    container_name: pomo-bot
-    env_file:
-      - .env
-    command: npm run start
-    restart: unless-stopped

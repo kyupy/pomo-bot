@@ -1,0 +1,8 @@
+{
+  "name": "pomo-bot (node20)",
+  "dockerComposeFile": ["../docker-compose.dev.yml"],
+  "service": "bot",
+  "workspaceFolder": "/app",
+  "shutdownAction": "stopCompose",
+  "remoteUser": "node"
+}
